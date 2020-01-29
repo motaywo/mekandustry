@@ -1,0 +1,31 @@
+type: LiquidTank
+name: Lead Fountain
+description: A lead fountain. Pretty.
+liquidCapacity: 10
+size: 2
+hasPower: false
+hasLiquids: true
+updateEffect: wet
+updateEffectChance: 0.05
+craftEffect: hitLiquid
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.015
+  }
+}
+spinnerSpeed: 10
+spinnerLength: 1
+spinnerThickness: 0.2
+spinnerRadius: 5
+color: 424285
+requirements: [
+  copper/20
+  titanium/10
+  lead/100
+  metaglass/40
+]
+category: effect
+research: fountain-copper
+idleSound: splash
+idleSoundVolume: 0.5

@@ -1,0 +1,26 @@
+name: Nano Drill
+description: A small but sturdy drill.
+type: Drill
+size: 1
+tier: 4
+drillTime: 300
+rotateSpeed: 10
+drawRim: true
+drawMineItem: false
+consumes: {
+  power: 0.8
+  liquid: {
+    liquid: water
+    amount: 0.05
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  thorium/80
+  silicon/40
+  graphite/50
+  plastanium/20
+]
+category: production
+research: laser-drill

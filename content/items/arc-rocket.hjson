@@ -1,0 +1,4 @@
+type: resource
+name: Arc Rocket
+description: Homing rockets with electrodes mounted at their tip. The plasma they generate can cut through virtually anything.
+color: ffffff

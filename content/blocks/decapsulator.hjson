@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: "Decapsulator"
+description: "Extracts fluids from capsules, allowing them to be transported like fluids."
+liquidCapacity: 50
+itemCapacity: 10
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 90
+updateEffect: wet
+consumes: {
+  power: 1
+  item: water-capsule
+}
+requirements: [
+  titanium/50
+  lead/80
+  silicon/20
+  metaglass/120
+  plastanium/20
+]
+category: liquid
+research: liquid-tank
+idleSound: respawning
+idleSoundVolume: 0.5
+outputLiquid: {
+  liquid: water
+  amount: 10
+}

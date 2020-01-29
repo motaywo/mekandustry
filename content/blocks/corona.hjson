@@ -1,0 +1,40 @@
+type: ItemTurret
+name: Corona
+description: Emits multiple bursts of short-lived fire. What a mess.
+health: 2000
+size: 2
+reload: 3
+range: 100
+shootCone: 360
+recoil: 0
+targetAir: false
+restitution: 0
+ammoUseEffect: shellEjectMedium
+inaccuracy: 0
+rotatespeed: 0
+shots: 45
+spread: 8
+ammo: {
+  coal: {
+    type: BasicBulletType
+    pierce: true
+    hitSize: 7
+    drawSize: 50
+    drag: 0.05
+    speed: 5
+    lifetime: 72
+    damage: 8
+    status: burning
+    shootEffect: none
+    hitEffect: hitFlameSmall
+    smokeEffect: hitFlameSmall
+    statusDuration: 240
+    bulletSprite: mekandustry-firebullet
+  }
+}
+requirements: [
+  silver/40
+  copper/70
+]
+category: turret
+research: duo

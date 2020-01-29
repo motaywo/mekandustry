@@ -1,0 +1,4 @@
+type: floor
+name: Dead Grass
+variants: 2
+playerUnmineable: true

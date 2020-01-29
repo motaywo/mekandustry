@@ -1,0 +1,27 @@
+name: Halberd
+description: An unnaturally elongated mech. Spews messy lightning all over your enemies.
+drillPower: 2
+flying: false
+speed: 0.15
+drag: 0.034
+mass: 2.5
+health: 250
+itemCapacity: 30
+turnCursor: true
+cellTrnsY: 0
+buildPower: 2.0
+weaponOffsetX: 4
+weapon: {
+  name: Pulse Cannon
+  length: 3
+  inaccuracy: 5
+  shots: 10
+  shotDelay: 3
+  spacing: 0
+  reload: 100
+  recoil: 1
+  shake: 0
+  alternate: true
+  bullet: standardDense
+
+}

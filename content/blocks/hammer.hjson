@@ -1,0 +1,29 @@
+type: ArtilleryTurret
+name: Hammer
+description: Global artillery turret
+health: 5000
+size: 6
+reload: 400
+range: 2700
+shootCone: 20
+recoil: 20
+restitution: 0.009
+ammoUseEffect: shellEjectMedium
+inaccuracy: 1
+rotatespeed: 0.05
+ammo: {
+  blast-compound: {
+    type: ArtilleryBulletType
+    drawSize: 200
+    speed: 9
+    lifetime: 500
+    splashDamage:180
+    splashDamageRadius:200
+  }
+}
+requirements: [
+  silver/40
+  copper/70
+]
+category: turret
+research: duo

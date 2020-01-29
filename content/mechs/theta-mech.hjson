@@ -1,0 +1,24 @@
+name: Theta
+description: A ground mech equipped with a flamethrower.
+drillPower: 2
+flying: false
+maxSpeed: 5
+speed: 1
+boostSpeed: 1.5
+drag: 0.4
+mass: 2
+health: 200
+itemCapacity: 30
+cellTrnsY: -1
+buildPower: 1.8
+weapon: {
+  name: Flamethrower
+  length: 3
+  recoil: 2
+  shake: 0
+  width: 0
+  inaccuracy: 1
+  reload: 10
+  alternate: true
+  bullet: fireball
+}

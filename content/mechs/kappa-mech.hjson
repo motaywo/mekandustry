@@ -1,0 +1,22 @@
+name: Kappa
+description: An unnaturally elongated mech. Spews messy lightning all over your enemies.
+drillPower: 2
+flying: true
+speed: 0.15
+drag: 0.034
+mass: 2.5
+health: 250
+itemCapacity: 30
+cellTrnsY: 0
+buildPower: 2.0
+weaponOffsetX: 4
+weapon: {
+  name: chrome-blaster
+  length: 2
+  velocityRnd: 0.2
+  inaccuracy: 5
+  reload: 5
+  lengthRand: 1
+  alternate: true
+  bullet: waterShot
+}

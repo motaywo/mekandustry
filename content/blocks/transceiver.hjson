@@ -1,0 +1,25 @@
+type: PowerNode
+name: Power Transceiver
+description: Projects power to a single target at extremely long distances, but requires power to function.
+size: 3
+laserRange: 300
+maxNodes: 1
+insulated: true
+hasPower: true
+consumesPower:true
+outputsPower:true
+consumes: {
+  power: {
+    usage: 3
+    capacity: 10000
+  }
+}
+baseExplosiveness: 1
+requirements: [
+  titanium/100
+  silicon/90
+  surge-alloy/75
+  phase-fabric/30
+]
+category: power
+research: surge-tower

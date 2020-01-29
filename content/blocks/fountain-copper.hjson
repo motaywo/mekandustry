@@ -1,0 +1,30 @@
+type: LiquidTank
+name: Copper Fountain
+description: A copper fountain. Pretty.
+liquidCapacity: 10
+size: 2
+hasPower: false
+hasLiquids: true
+updateEffect: wet
+updateEffectChance: 0.05
+craftEffect: hitLiquid
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.01
+  }
+}
+spinnerSpeed: 10
+spinnerLength: 1
+spinnerThickness: 0.2
+spinnerRadius: 5
+color: 424285
+requirements: [
+  copper/80
+  lead/20
+  metaglass/40
+]
+category: effect
+research: mechanical-pump
+idleSound: splash
+idleSoundVolume: 0.5

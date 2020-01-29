@@ -1,0 +1,47 @@
+type: ItemTurret
+name: Gauss Gun
+description: Sprays useless silver bullets everywhere. What a mess.
+health: 2000
+size: 5
+reload: 420
+range: 900
+shootCone: 5
+shootShake: 10
+recoil: 30
+targetAir: true
+restitution: 0.005
+ammoUseEffect: shellEjectBig
+inaccuracy: 0
+rotatespeed: 0.8
+ammo: {
+  graphite: {
+    type: BasicBulletType
+    bulletShrink: -5
+    lifetime: 100
+    speed: 15
+    drag: 0.0001
+    collides: true
+    pierce: true
+    damage: 500
+    hitEffect: hitBulletBig
+  }
+  silicon: {
+    type: BasicBulletType
+    bulletShrink: -2
+    lifetime: 120
+    speed: 9
+    drag: 0.0001
+    homingPower: 0.0002
+    homingRange: 500
+    collides: true
+    pierce: true
+    damage: 250
+    hitEffect: hitBulletBig
+  }
+}
+requirements: [
+  silver/40
+  copper/70
+]
+category: turret
+research: duo

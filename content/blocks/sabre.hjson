@@ -1,0 +1,35 @@
+type: BurstTurret
+name: Sabre
+description: Mid-range ground/air tower that fires fast, cutting rockets.
+health: 2000
+size: 2
+reload: 200
+range: 155
+shootCone: 20
+recoil: 1
+targetAir: true
+restitution: 0.9
+ammoUseEffect: shellEjectMedium
+inaccuracy: 1
+xRand: 3
+rotatespeed: 3
+shots: 10
+burstSpacing: 5
+ammo: {
+  arc-rocket: {
+    type: MissileBulletType
+    pierce: true
+    speed: 4
+    lifetime: 50
+    damage: 5
+    weaveScale: 0.3
+    weaveMag: 4
+    homingPower: 100
+  }
+}
+requirements: [
+  silver/40
+  copper/70
+]
+category: turret
+research: duo
