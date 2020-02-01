@@ -1,0 +1,5 @@
+type: material
+name: Carbon Nanotube
+description: A microscopic graphene tube with impressive physical strength. Commonly used in next-generation aircraft.
+cost: 2
+color: 5d6c7a

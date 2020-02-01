@@ -1,0 +1,7 @@
+type: material
+name: Biomass
+description: A collection of disorganized cells harvested from various herbaceous lifeforms. Can be restructured in a Biome Synthesizer to simulate various forms of plant-life.
+cost: 1
+flammability: 0.9
+explosiveness: 0.1
+color: 8B9016

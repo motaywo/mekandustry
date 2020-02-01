@@ -1,0 +1,7 @@
+type: material
+name: Wood
+description: Wood. Grows on trees.
+cost: 1
+flammability: 0.7
+explosiveness: 0
+color: BE9F81

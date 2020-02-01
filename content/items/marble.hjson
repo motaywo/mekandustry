@@ -1,0 +1,5 @@
+type: material
+name: Marble
+description: A white stone famed for its beauty, used in structures and decorations since the ancient times.
+cost: 1
+color: F5F4F6
